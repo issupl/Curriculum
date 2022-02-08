@@ -2,6 +2,11 @@
 *{
     margin:0;
     padding:0;
+    box-sizing: content-box;
+}
+body{
+    height:100%;
+    background-color: yellow;
 }
 header div {
     padding:5px;
@@ -25,9 +30,17 @@ header div div p{
 main{
     display:flex;
     flex-direction:row;
-    
+    padding:5px;
+    background-color:green;
+    height:100%;
 }
-
+main section{
+    flex:3;
+    background-color: grey;
+}
+main aside{
+    flex:0.5;
+}
 main aside div img{
     
     width:10vh;
