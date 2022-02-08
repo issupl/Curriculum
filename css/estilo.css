@@ -4,9 +4,30 @@
     padding:0;
     box-sizing: content-box;
 }
+li{
+    list-style:none;
+}
 body{
     /*height: 100vh;*/
     background-color: yellow;
+}
+header{
+    position:sticky;
+    top:0;
+}
+header nav{
+    display:flex;
+    flex-direction:row;
+}
+header nav a{
+    text-decoration:none;
+}
+header nav a:visited{
+    color:black;
+    
+}
+header nav a:hover{
+    cursor:pointer;
 }
 header div {
     padding:5px;
@@ -37,15 +58,23 @@ main{
 main section{
     flex:3;
     background-color: grey;
+    margin:1px;
 }
 main aside{
     flex:0.5;
+    background-color:white;
+    padding:2px;
+    margin:1px;
 }
 main aside div img{
     
     width:10vh;
 }
-main aside div:first-of-type + div i {
+main aside div:nth-child(1) {
+    display:flex;
+    justify-content:center;
+}
+main aside div:nth-child(2) i {
     display:flex;
     flex-direction:colum;
 }
