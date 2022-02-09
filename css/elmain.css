@@ -1,0 +1,53 @@
+main{
+    display:flex;
+    flex-direction:row;
+    padding:5px;
+    background-color:green;
+    height: 100vh;
+}
+main section{
+    flex:3;
+    background-color: white;
+    margin:1px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+    main section article{
+        margin: 25px;
+        line-height: 1.5;
+    }
+main aside{
+    flex:0.5;
+    background-color:white;
+    padding:2px;
+    margin:1px;
+}
+    main aside div img{
+        
+        width:10vh;
+    }
+    main aside div:nth-child(1) {
+        display:flex;
+        justify-content:center;
+    }
+    main aside div:nth-child(2) i {
+        display:flex;
+        flex-direction:colum;
+    }
+    main aside div:nth-child(3){
+        background-color: blue;
+        padding:5px;
+    }
+
+    .trabajo{
+        margin: 15px;
+
+        border: 1px solid black;
+        border-radius: 5px;
+    }
+    .trabajo span{
+        color: rgb(103, 151, 207);
+        font-size: 14px;
+    }
