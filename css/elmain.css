@@ -3,7 +3,8 @@ main{
     flex-direction:row;
     padding:5px;
     background-color:green;
-    height: 100vh;
+    
+    /*height: 100vh;*/
 }
     main section{
         flex:3;
@@ -12,6 +13,7 @@ main{
         display: flex;
         flex-direction: column;
         justify-content: space-around;
+        /*height:100vh;*//*me dió problemas...*/
         
     }
         main section article{

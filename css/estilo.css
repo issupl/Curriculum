@@ -11,6 +11,11 @@ html{
 li{
     list-style:none;
 }
+/*body{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-around;
+}*/
 /*#linea{
     position: absolute;
     top: 200px;

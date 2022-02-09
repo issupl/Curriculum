@@ -1,9 +1,10 @@
 header{
-    position:sticky;
-    top:0;
+    /*position:sticky;/*me dá problemas con mozilla*/
+    /*top:0;*//*me dá problemas con mozilla*/
     display: flex;
     flex-direction: row;
     align-items: center;
+    /*z-index:0;*//*no sé si esto lo soluciona*/
 }
     header nav{
         display:flex;
