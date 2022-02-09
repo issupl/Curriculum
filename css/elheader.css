@@ -1,6 +1,6 @@
 header{
-    /*position:sticky;/*me dá problemas con mozilla*/
-    /*top:0;*//*me dá problemas con mozilla*/
+    position:sticky;/*me dá problemas con mozilla*/
+    top:0;/*me dá problemas con mozilla*/
     display: flex;
     flex-direction: row;
     align-items: center;
