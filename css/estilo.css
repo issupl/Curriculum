@@ -3,8 +3,20 @@
     margin:0;
     padding:0;
     box-sizing: content-box;
+    
+}
+html{
+    scroll-behavior: smooth;
 }
 li{
     list-style:none;
 }
-
+/*#linea{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    width: 300px;
+    height: 2px;
+    transform: rotate(90deg);
+    background-color: blue;
+}*/
