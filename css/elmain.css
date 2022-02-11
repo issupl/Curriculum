@@ -30,13 +30,10 @@ main{
         }
         main section article:nth-child(2) div{
             display: flex;
-            /*flex-direction: row;
-            justify-content: space-around;*/
         }
                 main section article:nth-child(2) div article{
                     border: 3px solid rgb(0, 204, 255);
                     width: 25vw;
-                    /*height: 20vh;*/
                     display: flex;
                     flex-direction: column;
                     justify-content: start;
@@ -47,53 +44,19 @@ main{
 
 .trabajo{
         background-color: darkgreen;
+        padding: 5px;
+    }
+    .trabajo a img{
+        height: 5rem;
+        width: 100%;
+        object-fit: cover;
     }
     .trabajo div{
         border: 5px solid white;
         width: 24vw;/*a ojo*/
-            /*display: flex;*/
-            flex-direction: column;
-            /*align-items: flex-start;*/
+        flex-direction: column;
     }
-        /*.trabajo div div{
-            display:flex;
-            flex-direction:column;
-            background-color:black;
-            color:white;
-        }*/
-    .trabajo span{
-        color: rgb(103, 151, 207);
-        font-size: 14px;
-    }
-        .trabajo div a{
-            text-decoration: none;
-            background-color: blue;
-            color:white;
-        }
-    /*
-        .trabajo div[title="eraltech"]{
-            
-            background-image: url("../logoEraltech.png");
-            background-size:cover;
-            background-color: deeppink;
-            
-            
-        }
-            .trabajo div[title="eraltech"] div{
-                
-                background-color: black;
-                color:white;
-               
-            }
-        */    
-        .trabajo div[title="aguambiente"]{
         
-            background-image: url("../logoAguambiente.png");
-            background-size:cover;
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-        }
         .trabajo div[title="quiebra"]{
             
             background-size:cover;
