@@ -30,8 +30,8 @@ main{
         }
         main section article:nth-child(2) div{
             display: flex;
-            flex-direction: row;
-            justify-content: space-around;
+            /*flex-direction: row;
+            justify-content: space-around;*/
         }
                 main section article:nth-child(2) div article{
                     border: 3px solid rgb(0, 204, 255);
@@ -41,7 +41,7 @@ main{
                     flex-direction: column;
                     justify-content: start;
                     align-items: center;
-                    background-color: brown;
+                    background-color: green;
                     padding: 0px;
                 }
 
@@ -49,12 +49,18 @@ main{
         background-color: darkgreen;
     }
     .trabajo div{
-        border: 1px solid white;
-        /*width: 24vw;/*a ojo*/
-            /*display: flex;
+        border: 5px solid white;
+        width: 24vw;/*a ojo*/
+            /*display: flex;*/
             flex-direction: column;
-            align-items: flex-start;*/
+            /*align-items: flex-start;*/
     }
+        /*.trabajo div div{
+            display:flex;
+            flex-direction:column;
+            background-color:black;
+            color:white;
+        }*/
     .trabajo span{
         color: rgb(103, 151, 207);
         font-size: 14px;
@@ -64,23 +70,22 @@ main{
             background-color: blue;
             color:white;
         }
-    
+    /*
         .trabajo div[title="eraltech"]{
             
             background-image: url("../logoEraltech.png");
             background-size:cover;
             background-color: deeppink;
-            width: 24vw;/*a ojo*/
-            display: flex;
-            flex-direction: column;
+            
             
         }
             .trabajo div[title="eraltech"] div{
                 
                 background-color: black;
                 color:white;
-                /*width: 23vw;*/
+               
             }
+        */    
         .trabajo div[title="aguambiente"]{
         
             background-image: url("../logoAguambiente.png");
