@@ -50,7 +50,10 @@ main{
     }
     .trabajo div{
         border: 1px solid white;
-        
+        /*width: 24vw;/*a ojo*/
+            /*display: flex;
+            flex-direction: column;
+            align-items: flex-start;*/
     }
     .trabajo span{
         color: rgb(103, 151, 207);
