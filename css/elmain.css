@@ -3,8 +3,7 @@ main{
     flex-direction:row;
     padding:5px;
     background-color:green;
-    
-    /*height: 100vh;*/
+
 }
     main section{
         flex:3;
@@ -17,35 +16,42 @@ main{
         
     }
         main section article{
-            margin: 50px;
+            margin: 0px;/*está afectando o resto de etiquetas article se non o especifico*/
             line-height: 1.5;
+            background-color: rgb(255, 251, 0);
         }
-            main section article div:nth-child(1){
-                border: 1px solid red;
-                width: 50vw;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-            }
-            main section article:nth-child(2) div{
-                border: 1px solid orange;
-                width: 150px;
-                height: 20vh;
-                display: flex;
-                flex-direction: row;
-                justify-content: space-between;
-            }
+        main section article div:nth-child(1){
+            border: 3px solid red;
+            /*width: auto;*/
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            background-color: blueviolet;
+        }
+        main section article:nth-child(2) div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+                main section article:nth-child(2) div article{
+                    border: 3px solid rgb(0, 204, 255);
+                    width: 25vw;
+                    /*height: 20vh;*/
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: start;
+                    align-items: center;
+                    background-color: brown;
+                    padding: 0px;
+                }
 
 .trabajo{
-        margin: 15px;
-        border-radius: 5px;
+        background-color: darkgreen;
     }
-    /*.trabajo div{
-        border: 1px solid black;
-        /*width: 50vw;
-        width: 50px;
-        height: 20vh;
-    }*/
+    .trabajo div{
+        border: 1px solid white;
+        
+    }
     .trabajo span{
         color: rgb(103, 151, 207);
         font-size: 14px;
@@ -57,28 +63,35 @@ main{
         }
     
         .trabajo div[title="eraltech"]{
-            /*flex:0.5;
-            */
+            
             background-image: url("../logoEraltech.png");
             background-size:cover;
+            background-color: deeppink;
+            width: 24vw;/*a ojo*/
+            display: flex;
+            flex-direction: column;
+            
         }
+            .trabajo div[title="eraltech"] div{
+                
+                background-color: black;
+                color:white;
+                width: 23vw;
+            }
         .trabajo div[title="aguambiente"]{
-            /*flex:0.7;*/
+        
             background-image: url("../logoAguambiente.png");
             background-size:cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
         }
         .trabajo div[title="quiebra"]{
-            /*flex:0.5;*/
-            background-image: url("../quiebra.png");
+            
             background-size:cover;
         }
 
-/*#experiencialaboral{
-    width: 50vw;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}*/
+
 main aside{
     flex:0.5;
     background-color:white;
