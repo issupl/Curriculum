@@ -44,7 +44,7 @@ main{
     .trabajo a img{
         height: 5rem;
         width: 100%;
-        object-fit: cover;
+        object-fit: scale-down;
     }
     .trabajo div{
         border: 5px solid white;
