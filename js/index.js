@@ -37,4 +37,4 @@ function main(){
         imprimeLosDivs(elements);
         doyEvento(elements)
 }
-window.addEventListener("load",main);
+/*window.addEventListener("load",main);*/

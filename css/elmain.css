@@ -3,10 +3,11 @@ main{
     flex-direction:row;
     padding:5px;
     background-color:green;
+    
 
 }
     main section{
-        flex:3;
+        flex:2;
         background-color: white;
         margin:1px;
         display: flex;
@@ -16,13 +17,11 @@ main{
         
     }
         main section article{
-            margin: 0px;/*está afectando o resto de etiquetas article se non o especifico*/
             line-height: 1.5;
             background-color: rgb(255, 251, 0);
         }
         main section article div:nth-child(1){
             border: 3px solid red;
-            /*width: auto;*/
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -33,7 +32,6 @@ main{
         }
                 main section article:nth-child(2) div article{
                     border: 3px solid rgb(0, 204, 255);
-                    width: 25vw;
                     display: flex;
                     flex-direction: column;
                     justify-content: start;
@@ -42,10 +40,7 @@ main{
                     padding: 0px;
                 }
 
-.trabajo{
-        background-color: darkgreen;
-        padding: 5px;
-    }
+
     .trabajo a img{
         height: 5rem;
         width: 100%;
@@ -53,15 +48,8 @@ main{
     }
     .trabajo div{
         border: 5px solid white;
-        width: 24vw;/*a ojo*/
         flex-direction: column;
     }
-        
-        .trabajo div[title="quiebra"]{
-            
-            background-size:cover;
-        }
-
 
 main aside{
     flex:0.5;
@@ -70,8 +58,10 @@ main aside{
     margin:1px;
 }
     main aside div img{
-        
-        width:10vh;
+        height: 6rem;
+        /*width: 50%;*/
+        object-fit: scale-down;
+        /*width:10vh;*/
     }
     main aside div:nth-child(1) {
         display:flex;

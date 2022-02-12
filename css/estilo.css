@@ -11,11 +11,15 @@ html{
 li{
     list-style:none;
 }
-/*body{
+body{
     display:flex;
     flex-direction:column;
-    justify-content:space-around;
-}*/
+    
+    /*width:500vw;*/
+}
+body footer{
+	flex: 1 1 auto;
+}
 /*#linea{
     position: absolute;
     top: 200px;
