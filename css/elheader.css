@@ -26,6 +26,7 @@ header{
     header div {
         padding:0px;
         background-color:orange;
+        justify-content:space-around;
         flex:1;
     }
         header div div{
