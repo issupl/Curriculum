@@ -15,6 +15,7 @@ header{
     }
         header nav a{
             text-decoration:none;
+            font-family: 'Raleway', sans-serif;
         }
         header nav a:visited{
             color:black;
