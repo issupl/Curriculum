@@ -4,13 +4,14 @@ header{
     display: flex;
     flex-direction: row;
     align-items: center;
-    /*width:1000px;*/
-    /*z-index:0;*//*no sé si esto lo soluciona*/
+	background-color: white;
     border:1px solid red;
 }
     header nav{
         display:flex;
         flex-direction:row;
+        justify-content: space-around;
+        flex:3;
     }
         header nav a{
             text-decoration:none;
@@ -25,6 +26,7 @@ header{
     header div {
         padding:0px;
         background-color:orange;
+        flex:1;
     }
         header div div{
             display:flex;
