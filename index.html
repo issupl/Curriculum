@@ -30,6 +30,9 @@
 				<a href="#contacta">Contacta</a>
 			</nav>
 		</header>
+		<!--
+			NAV
+		-->
 		<main>
 			<!--<figure>
 				<img src="./images/0_imagenArriba.jpg" alt="" />
@@ -171,15 +174,33 @@
 				<form action="">
 					<fieldset>
 						<legend>Contacta</legend>
-						<label for="campoNombre">Nombre</label>
-						<input tabindex="1" type="text" id="campoNombre" placeholder="Introduzca nombre">
+						
+						<div>
+							<div>
+								<label for="campoNombre">Nombre</label>
+								<input tabindex="1" type="text" id="campoNombre" placeholder="Introduzca nombre" accesskey="n">
+							</div>
+							<div>
+								<label for="campoApellidoUno">Primer apellido</label>
+								<input tabindex="2" type="text" id="campoApellidoUno" placeholder="Introduzca primer apellido" accesskey="a">
+							</div>
+							<div>
+								<label for="campoApellidoDos">Segundo apellido</label>
+								<input tabindex="3" type="text" id="campoApellidoDos" placeholder="Introduzca segundo apellido" accesskey="a">
+							</div>
+							
+						</div>
+						<div>
+							<div>
 
-						<label for="campoApellidoUno">Primer apellido</label>
-						<input tabindex="2" type="text" id="campoApellidoUno" placeholder="Introduzca primer apellido">
-
-						<label for="campoApellidoDos">Segundo apellido</label>
-
-						<input tabindex="3" type="text" id="campoApellidoDos" placeholder="Introduzca segundo apellido">
+								<label for="campoComentario">Comentario</label>
+								<textarea name="" id="campoComentario" cols="30" rows="10"></textarea>
+							
+							</div>
+						</div>
+						<div>
+							<input type="button" value="Enviar">
+						</div>
 					</fieldset>
 				</form>
 			</section>
