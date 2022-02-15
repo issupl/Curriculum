@@ -1,0 +1,22 @@
+nav{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    border: 1px solid orange;
+    position:sticky;/*me dá problemas con mozilla*/
+    top:0;
+    padding: 15px;
+    background-color: #F7DC6F;
+    color: white;
+}
+     nav a{
+        text-decoration:none;
+        font-family: 'Raleway', sans-serif;
+    }
+     nav a:visited{
+        color:black;
+        
+    }
+     nav a:hover{
+        cursor:pointer;
+    }
