@@ -14,24 +14,27 @@ footer section {
     margin: 10px;
     padding: 10px;
   }
-      footer section fieldset div{
+      footer section form fieldset div{
         display: flex;
         justify-content: column;
         font-family: 'Roboto Serif', sans-serif;
         background-color: blue;
           color:white;
       }
-        /*footer section fieldset div{
-          font-family: 'Roboto Serif', sans-serif;
-        }*/
-        footer section fieldset div:nth-child(1){
-          display: flex;
-          flex-direction: column;
-          background-color: orange;
-          color:white;
-          padding: 20px;
-        }
-        footer section fieldset div div textarea{
+      footer section form fieldset div:nth-child(2){
+        display: flex;
+        justify-content: column;
+        padding: 5px;
+        background-color: blueviolet;
+      }
+      footer section form fieldset div div{
+        background-color: yellow;
+        color: black;
+        margin: 10px;
+        padding: 5px;;
+      }
+
+        footer section form fieldset div div textarea{
           margin: 20px;
           width: 100%;
         }
