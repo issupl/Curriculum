@@ -32,26 +32,15 @@ footer section {
         margin: 10px;
         padding: 35px;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-around;
       }
       
-      footer section form fieldset > div:nth-child(3){
-        border: 1px solid black;
-        display: flex;
-        flex-direction: row;
-        
-      }
       footer section form fieldset > div input{
         
         padding: 10px;
         
       }
-     /*... tengo que mirar width para poner 100% ...*/
-        footer section form fieldset div div textarea{
-          margin: 25px;
-          /*width: 100%;*/
-          width:75vw;
-        }
+     
 
       
