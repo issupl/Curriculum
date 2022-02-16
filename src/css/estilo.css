@@ -15,15 +15,7 @@ html{
 li{
     list-style:none;
 }
-body{
-    display:flex;
-    flex-direction:column;
-    
-    /*width:500vw;*/
-}
-/*body footer{
-	flex: 1 1 auto;
-}*/
+
 body > a{
 	margin: 5px;
 	padding:5px;

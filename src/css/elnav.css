@@ -11,16 +11,20 @@ nav{
     color: white;
 }
     nav > div{
-        width: 20em;
-        border: 1px solid black;
+        width: 5em;
         border-radius: 5px;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         padding: 0.2em;
+        
     }
     nav div img{
-        display: none;
+        height: 1em;
+        padding: .2em;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: #D4AC0D;
     }
      nav a{
         text-decoration:none;
