@@ -2,6 +2,7 @@ nav{
     display:flex;
     flex-direction:row;
     justify-content: space-around;
+    align-items: center;
     border: 1px solid orange;
     position:sticky;/*me dá problemas con mozilla*/
     top:0;
@@ -9,6 +10,18 @@ nav{
     background-color: #F7DC6F;
     color: white;
 }
+    nav > div{
+        width: 20em;
+        border: 1px solid black;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 0.2em;
+    }
+    nav div img{
+        display: none;
+    }
      nav a{
         text-decoration:none;
         font-family: 'Raleway', sans-serif;
@@ -19,4 +32,8 @@ nav{
     }
      nav a:hover{
         cursor:pointer;
+    }
+    nav a svg{
+        
+        font-size: 5rem;
     }
