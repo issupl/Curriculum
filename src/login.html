@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link href="css/estilo.css" rel="stylesheet" type="text/css" />
-		<link href="css/elnav.css" rel="stylesheet" type="text/css" />
+		<!--<link href="css/elnav.css" rel="stylesheet" type="text/css" />-->
 		<link href="css/elmain.css" rel="stylesheet" type="text/css" />
 		<link href="css/elheader.css" rel="stylesheet" type="text/css" />
         <link href="css/ellogin.css" rel="stylesheet" type="text/css" />
@@ -19,6 +19,11 @@
 	</head>
 	<body>
 		<header id="arriba">
+			<nav>
+				<a href="login.html"> <img src="images/iconos/usuario.png" alt="icono usuario" >   </a>	
+				<a href="index.html"><img src="images/iconos/casa.png" alt="icono casa">  </a> 
+			</nav>
+			
 			<div>
 				<div>
 					<h1>......</h1>
@@ -29,17 +34,6 @@
 			
 		</header>
 		
-		<nav>
-			<div>
-				<div>
-					<a href="login.html"> <img src="images/iconos/usuario.png" alt="icono usuario">   </a>	
-					<a href="index.html"><img src="images/iconos/casa.png" alt="icono casa">  </a> 
-				</div>
-			</div>
-			<a href="#experiencialaboral">Experiencia laboral</a>
-			<a href="#trabajospersonales">Trabajos personales</a>
-			<a href="#contacta">Contacta</a>
-		</nav>
 		
 		<footer id="contacta">
 			<section>
@@ -49,12 +43,23 @@
 						
 						<div>
 							<div>
-								<label for="campoEmail">Correo</label>
-								<input tabindex="1" type="email" id="campoEmail" placeholder="Introduzca email" accesskey="m e">
+								<div>
+									<label for="campoEmail">Correo</label>
+								</div>
+								<div>
+
+									<input tabindex="1" type="email" id="campoEmail" placeholder="Introduzca email" accesskey="m e">
+								</div>
 							</div>
 							<div>
-								<label for="campoPwd">Primer apellido</label>
-								<input tabindex="2" type="password" id="campoPwd" placeholder="Introduzca password" accesskey="a">
+								<div>
+
+									<label for="campoPwd">Primer apellido</label>
+								</div>
+								<div>
+
+									<input tabindex="2" type="password" id="campoPwd" placeholder="Introduzca password" accesskey="a">
+								</div>
 							</div>
 								
 						</div>
