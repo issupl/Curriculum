@@ -41,7 +41,7 @@ footer section {
       footer section form fieldset > div:nth-child(3){
         border: 1px solid black;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         
       }
       footer section form fieldset > div input{
@@ -51,9 +51,10 @@ footer section {
       }
      /*... tengo que mirar width para poner 100% ...*/
         footer section form fieldset div div textarea{
-          margin: 25px;
-          /*width: 100%;*/
-          width:75vw;
+         
+          width: 100%;
+          margin-top: 1em;
+          margin-bottom: 1em;
         }
 
         
