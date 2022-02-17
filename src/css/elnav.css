@@ -1,4 +1,4 @@
-nav{
+body > nav{
     display:flex;
     flex-direction:row;
     justify-content: space-around;
@@ -10,7 +10,7 @@ nav{
     background-color: #F7DC6F;
     color: white;
 }
-    nav > div{
+body > nav > div{
         width: 5em;
         border-radius: 5px;
         display: flex;
@@ -19,25 +19,25 @@ nav{
         padding: 0.2em;
         
     }
-    nav div img{
+    body > nav div img{
         height: 1em;
         padding: .2em;
         border: 1px solid black;
         border-radius: 5px;
         background-color: #D4AC0D;
     }
-     nav a{
+    body > nav a{
         text-decoration:none;
         font-family: 'Raleway', sans-serif;
     }
-     nav a:visited{
+    body > nav a:visited{
         color:black;
         
     }
-     nav a:hover{
+    body > nav a:hover{
         cursor:pointer;
     }
-    nav a svg{
+    body > nav a svg{
         
         font-size: 5rem;
     }
