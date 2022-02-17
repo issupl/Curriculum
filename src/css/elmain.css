@@ -32,6 +32,7 @@ main{
 				background-color: orange;
 				color:white;
 				padding: 15px;
+                text-align: center;
 				
 			}
         main section article > div:nth-child(1){ /*es distinto 'main section article div:nth-child(1)'*/
@@ -43,6 +44,8 @@ main{
         }
         main section article:nth-child(2) div{
             display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around
         }
                 main section article:nth-child(2) div article{
                     display: flex;
@@ -51,6 +54,7 @@ main{
                     align-items: center;
                     
                     padding: 0px;
+                    flex: 0.3;
                 }
 
 .trabajo{
@@ -61,6 +65,7 @@ main{
 }
 	.trabajo span{
 		font-family: 'Roboto Serif', sans-serif;
+        text-align: center;
 	}
     
     .trabajo div{
